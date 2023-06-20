@@ -1,0 +1,17 @@
+﻿<!-- https://github.com/xamarin/xamarin-macios/issues/10819#issuecomment-815059416 -->
+<!-- https://github.com/urbanairship/urbanairship-xamarin/blob/main/src/AirshipBindings.iOS.Core/urbanairship.ios.core.targets -->
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Target Name="YouTubeiOSPlayerHelperBeforeCompile" AfterTargets="BeforeCompile">
+        <ItemGroup>
+            <BindingResources Include="$(MSBuildThisFileDirectory)../lib/xamarinios10/YouTubeiOSPlayerHelper.resources/**/*.*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(BindingResources)" DestinationFolder="$(TargetDir)/YouTubeiOSPlayerHelper.resources/%(RecursiveDir)" ContinueOnError="false" />
+        <ItemGroup>
+            <NativeReference Include="$(TargetDir)/YouTubeiOSPlayerHelper.resources\YouTubeiOSPlayerHelper.xcframework">
+                <Kind>Framework</Kind>
+                <SmartLink>False</SmartLink>
+            </NativeReference>
+        </ItemGroup>
+    </Target>
+</Project>
