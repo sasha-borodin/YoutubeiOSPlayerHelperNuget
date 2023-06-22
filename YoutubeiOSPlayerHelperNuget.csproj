@@ -23,6 +23,8 @@
 
 https://github.com/youtube/youtube-ios-player-helper</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <ReleaseVersion>1.0.4</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
 </PropertyGroup>
 
     <PropertyGroup>
