@@ -82,7 +82,7 @@ https://github.com/youtube/youtube-ios-player-helper</Description>
         </None>
     </ItemGroup>
     <ItemGroup>
-      <NativeReference Include="YouTubeiOSPlayerHelper.xcframework">
+      <NativeReference Include="..\YouTubeiOSPlayerHelper.xcframework">
         <Kind>Framework</Kind>
         <SmartLink>False</SmartLink>
       </NativeReference>

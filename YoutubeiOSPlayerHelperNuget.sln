@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeiOSPlayerHelperNuget", "YoutubeiOSPlayerHelperNuget.csproj", "{A3690C95-470B-4A3F-9081-D053BCAD4C32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeiOSPlayerHelperNuget", "YoutubeiOSPlayerHelperNuget\YoutubeiOSPlayerHelperNuget.csproj", "{A3690C95-470B-4A3F-9081-D053BCAD4C32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "sample\sample.csproj", "{2F80E1F4-ECDF-41F4-9D86-5635C3720125}"
 EndProject
