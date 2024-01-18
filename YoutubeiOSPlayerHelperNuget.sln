@@ -1,9 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeiOSPlayerHelperNuget", "YoutubeiOSPlayerHelperNuget\YoutubeiOSPlayerHelperNuget.csproj", "{A3690C95-470B-4A3F-9081-D053BCAD4C32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeiOSPlayerHelperNuget", "YouTubeiOSPlayerHelperNuget\YouTubeiOSPlayerHelperNuget.csproj", "{A3690C95-470B-4A3F-9081-D053BCAD4C32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "sample\sample.csproj", "{2F80E1F4-ECDF-41F4-9D86-5635C3720125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeiOSPlayerHelperNuget.Net", "YouTubeiOSPlayerHelperNuget.Net\YouTubeiOSPlayerHelperNuget.Net.csproj", "{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +41,17 @@ Global
 		{2F80E1F4-ECDF-41F4-9D86-5635C3720125}.Debug|iPhone.Build.0 = Debug|iPhone
 		{2F80E1F4-ECDF-41F4-9D86-5635C3720125}.Release|iPhone.ActiveCfg = Release|iPhone
 		{2F80E1F4-ECDF-41F4-9D86-5635C3720125}.Release|iPhone.Build.0 = Release|iPhone
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F3C85432-E4F4-4A2F-9AA5-C642C2A0B428}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

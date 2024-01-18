@@ -139,9 +139,9 @@
         </Compile>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\YoutubeiOSPlayerHelperNuget.csproj">
+      <ProjectReference Include="..\YouTubeiOSPlayerHelperNuget.csproj">
         <Project>{A3690C95-470B-4A3F-9081-D053BCAD4C32}</Project>
-        <Name>YoutubeiOSPlayerHelperNuget</Name>
+        <Name>YouTubeiOSPlayerHelperNuget</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

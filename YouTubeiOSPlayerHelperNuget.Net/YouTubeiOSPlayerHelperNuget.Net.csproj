@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+    <RootNamespace>YouTubeiOSPlayerHelper</RootNamespace>
+    <AssemblyName>YouTubeiOSPlayerHelper</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>YouTubeiOSPlayerHelper.Net</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Churchill Hotaling</Authors>
+    <PackageProjectUrl>https://github.com/chotaling1/YoutubeiOSPlayerHelperNuget</PackageProjectUrl>
+    <Title>.NET iOS binding of youtube-ios-player-helper</Title>
+    <Summary>.NET iOS binding of youtube-ios-player-helper, a native library from Google</Summary>
+    <Description>
+        .NET iOS binding of youtube-ios-player-helper, a native library from Google
+        https://github.com/youtube/youtube-ios-player-helper
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <NoBindingEmbedding>true</NoBindingEmbedding>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="YouTubeiOSPlayerHelper.targets">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>true</Pack>
+      <PackagePath>build/YouTubeiOSPlayerHelper.targets</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <NativeReference Include="..\YouTubeiOSPlayerHelper.xcframework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+
+</Project>
