@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-ios</TargetFramework>
+    <TargetFramework>net8.0-ios</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
@@ -10,7 +10,7 @@
 
   <PropertyGroup>
     <PackageId>YouTubeiOSPlayerHelper.Net</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <Authors>Churchill Hotaling</Authors>
     <PackageProjectUrl>https://github.com/chotaling1/YoutubeiOSPlayerHelperNuget</PackageProjectUrl>
     <Title>.NET iOS binding of youtube-ios-player-helper</Title>
@@ -43,7 +43,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <NativeReference Include="..\YouTubeiOSPlayerHelper.xcframework">
+    <NativeReference Include="../YouTubeiOSPlayerHelper.xcframework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
