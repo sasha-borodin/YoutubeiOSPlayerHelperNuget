@@ -5,19 +5,6 @@ using WebKit;
 
 namespace YouTubeiOSPlayerHelper
 {
-
-	[Static]
-	partial interface Constants
-	{
-		// extern double youtube_ios_player_helperVersionNumber;
-		[Field("youtube_ios_player_helperVersionNumber", "__Internal")]
-		double youtube_ios_player_helperVersionNumber { get; }
-
-		// extern const unsigned char [] youtube_ios_player_helperVersionString;
-		[Field("youtube_ios_player_helperVersionString", "__Internal")]
-		NSString youtube_ios_player_helperVersionString { get; }
-	}
-
 	// typedef void (^YTIntCompletionHandler)(int, NSError * _Nullable);
 	delegate void YTIntCompletionHandler(int arg0, [NullAllowed] NSError arg1);
 
